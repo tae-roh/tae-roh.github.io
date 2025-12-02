@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   birthdate: "1999. 05. 20",
   intro: `Hello! I am a Software Engineer at **Samsung Electronics GTR (Global Technology Research)**. My research interests lie in **Reinforcement Learning** and **Robotics**.
   
-  I dream of a world where robots and AI become a natural part of everyday life.
+  When I was little, I wanted to become one of the cool robots I saw in cartoons. I eventually learned that wasn’t quite possible—but I still believe robots can become our friendly and safe companions.
   `,
   contacts: [
     {
