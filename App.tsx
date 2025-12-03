@@ -129,7 +129,12 @@ const App: React.FC = () => {
                     <div className="mt-2 flex gap-3 text-sm">
                       {item.links.map((link, idx) => (
                         <React.Fragment key={idx}>
-                          <a href={link.url} className="text-blue-600 hover:underline hover:text-blue-800 lowercase">
+                          <a 
+                            href={link.url} 
+                            className="text-blue-600 hover:underline hover:text-blue-800 lowercase"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             {link.text}
                           </a>
                           {idx < (item.links?.length || 0) - 1 && (
