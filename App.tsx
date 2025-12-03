@@ -174,9 +174,6 @@ const App: React.FC = () => {
 
         </main>
 
-        <footer className="mt-20 pt-8 border-t border-gray-100 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} {RESUME_DATA.name}. All rights reserved.</p>
-        </footer>
       </div>
 
     </div>
