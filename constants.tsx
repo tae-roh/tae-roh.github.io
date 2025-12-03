@@ -6,7 +6,7 @@ export const RESUME_DATA: ResumeData = {
   pronunciation: "[Pronunciation: \"Teh-hon\"]",
   role: "Software Engineer",
   birthdate: "1999. 05. 20",
-  intro: `Hello! I am a Software Engineer at **Samsung Electronics GTR (Global Technology Research)**. My research interests lie in **Reinforcement Learning** and **Robotics**.
+  intro: `Hello! I am a Software Engineer at **Samsung Electronics GTR (Global Technology Research)**. My research interests lie in **Reinforcement Learning** and **Robot Learning**.
   
   When I was little, I wanted to become one of the cool robots I saw in cartoons. I eventually learned that wasn’t quite possible—but I still believe robots can become our friendly and safe companions.
   `,
@@ -47,7 +47,7 @@ export const RESUME_DATA: ResumeData = {
     {
       id: 'p1',
       date: '2025. 05 - Present',
-      title: 'Stable Exploration in High-Dimensional Action Spaces*',
+      title: 'Adaptive Exploration in High-Dimensional Action Spaces*',
       description: 'Title: Element-wise Action Importance Estimation for Adaptive Exploration in High-Dimensional Action Spaces (personal project)',
       links: [
         { text: "code", url: "https://github.com/tae-roh/eain" },
