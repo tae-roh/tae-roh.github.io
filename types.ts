@@ -13,6 +13,7 @@ export interface TimelineItem {
   role?: string; // For work experience
   location?: string;
   links?: Link[]; // For "paper | code | thread" style links
+  detailContent?: string; // Content for the specific project page
 }
 
 export interface Skill {
@@ -46,9 +47,4 @@ export interface ResumeData {
   work: TimelineItem[];
   projects: TimelineItem[];
   skills: Skill[];
-}
-
-export interface ChatMessage {
-  role: 'user' | 'model';
-  text: string;
 }

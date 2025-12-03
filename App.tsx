@@ -1,5 +1,4 @@
 import React from 'react';
-import ChatWidget from './components/ChatWidget';
 import { RESUME_DATA } from './constants';
 
 const App: React.FC = () => {
@@ -175,7 +174,6 @@ const App: React.FC = () => {
         </footer>
       </div>
 
-      <ChatWidget />
     </div>
   );
 };
