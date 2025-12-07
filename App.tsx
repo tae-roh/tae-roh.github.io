@@ -78,7 +78,7 @@ const App: React.FC = () => {
           <section>
             <h2 className="text-3xl font-light text-gray-900 mb-6 font-sans">Experience</h2>
             
-            <div className="space-y-8">
+            <div className="space-y-6">
               {RESUME_DATA.work.map((item) => (
                 <div key={item.id} className="group">
                   <h3 className="text-lg font-bold text-gray-900 leading-tight">
@@ -113,7 +113,7 @@ const App: React.FC = () => {
           <section>
             <h2 className="text-3xl font-light text-gray-900 mb-6 font-sans">Projects</h2>
             {/* <p className="text-sm text-gray-500 mb-6 italic">(*: key projects)</p> */}
-            <div className="space-y-8">
+            <div className="space-y-6">
               {RESUME_DATA.projects.map((item) => (
                 <div key={item.id} className="group">
                   <h3 className="text-lg font-bold text-gray-900 leading-tight">
@@ -152,7 +152,7 @@ const App: React.FC = () => {
            {/* Education */}
            <section>
             <h2 className="text-3xl font-light text-gray-900 mb-6 font-sans">Education</h2>
-            <div className="space-y-4">
+            <div className="space-y-6">
               {RESUME_DATA.education.map((item) => (
                 <div key={item.id}>
                   <div className="text-lg font-bold text-gray-900 leading-tight">
@@ -175,7 +175,7 @@ const App: React.FC = () => {
           {/* Honors & Awards */}
           <section>
             <h2 className="text-3xl font-light text-gray-900 mb-6 font-sans">Honors & Awards</h2>
-            <div className="space-y-4">
+            <div className="space-y-6">
               {RESUME_DATA.awards.map((item) => (
                 <div key={item.id}>
                   <div className="text-lg font-bold text-gray-900 leading-tight">
