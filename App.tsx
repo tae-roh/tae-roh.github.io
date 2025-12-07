@@ -112,7 +112,7 @@ const App: React.FC = () => {
           {/* Projects */}
           <section>
             <h2 className="text-3xl font-light text-gray-900 mb-6 font-sans">Projects</h2>
-            <p className="text-sm text-gray-500 mb-6 italic">(*: key projects)</p>
+            {/* <p className="text-sm text-gray-500 mb-6 italic">(*: key projects)</p> */}
             <div className="space-y-8">
               {RESUME_DATA.projects.map((item) => (
                 <div key={item.id} className="group">

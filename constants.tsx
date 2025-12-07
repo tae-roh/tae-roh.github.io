@@ -47,7 +47,7 @@ export const RESUME_DATA: ResumeData = {
     {
       id: 'p1',
       date: '2025. 05 - Present',
-      title: 'Adaptive Exploration in High-Dimensional Action Spaces*',
+      title: 'Adaptive Exploration in High-Dimensional Action Spaces',
       description: 'Title: Element-wise Action Importance Estimation for Adaptive Exploration in High-Dimensional Action Spaces (personal project)',
       links: [
         { text: "code", url: "https://github.com/tae-roh/eain" },
