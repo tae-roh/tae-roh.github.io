@@ -172,6 +172,31 @@ const App: React.FC = () => {
             </div>
           </section>
 
+          {/* Honors & Awards */}
+          <section>
+            <h2 className="text-3xl font-light text-gray-900 mb-6 font-sans">Honors & Awards</h2>
+            <div className="space-y-4">
+              {RESUME_DATA.awards.map((item) => (
+                <div key={item.id}>
+                  <div className="text-lg font-bold text-gray-900 leading-tight">
+                    {item.title}
+                  </div>
+                  <div className="text-gray-700 mt-1">
+                    {item.issuer}
+                  </div>
+                  {item.description && (
+                     <div className="text-gray-600 mt-1">
+                       {item.description}
+                     </div>
+                  )}
+                  <div className="text-gray-500 text-sm font-medium mt-1">
+                    {item.date}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
         </main>
 
       </div>

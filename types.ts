@@ -35,6 +35,14 @@ export interface BlogPost {
   url: string;
 }
 
+export interface AwardItem {
+  id: string;
+  title: string;
+  issuer: string;
+  date: string;
+  description?: string;
+}
+
 export interface ResumeData {
   name: string;
   enName: string;
@@ -47,4 +55,5 @@ export interface ResumeData {
   work: TimelineItem[];
   projects: TimelineItem[];
   skills: Skill[];
+  awards: AwardItem[];
 }
