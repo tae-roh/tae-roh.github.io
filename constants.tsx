@@ -51,6 +51,7 @@ export const RESUME_DATA: ResumeData = {
       description: 'Title: Element-wise Action Importance Estimation for Adaptive Exploration in High-Dimensional Action Spaces (personal project)',
       links: [
         { text: "project", url: "/project/1" },
+        { text: "code", url: "https://github.com/tae-roh/eain"}
       ]
       
     },
